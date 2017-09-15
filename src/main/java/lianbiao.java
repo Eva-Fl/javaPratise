@@ -74,7 +74,7 @@ public class lianbiao {
 
     public static Node reverse(Node current){
         //递归实现
-        // 若为空链或者当前结点在尾结点，则直接还回
+        // 若为空链或者当前结点在尾结点，则直接返回
         if (current == null || current.next == null){
             return current;
         }

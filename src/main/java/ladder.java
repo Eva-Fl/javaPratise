@@ -22,6 +22,8 @@ public class ladder {
     }
 
     //非递归方法
+    //当楼梯数为1、2、3、4、5时，对应的爬法有：1、2、3、5、8、13、21种。
+    //随着楼梯数n的增加，爬法总数呈现斐波那契数列规律增加，即f（n） = f（n-1） + f（n-2）
     private static int count(int ladder) {
         if (ladder == 1 || ladder == 2) {
             return ladder;
